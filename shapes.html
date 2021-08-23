@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./shapes.css">
+  <title>Geometric Shapes</title>
+</head>
+<body>
+  
+  <header class="header">
+    <h1>Geometric Shapes</h1>
+  </header>
+
+  <section class="forms">
+    <div class="forms__layout">
+      <h2>What is the meassurement of the side of your square?</h2>
+      <form>
+
+        <div class="forms__layout--input">
+          <label for="square">Side </label>
+          <input type="number" id="square">
+        </div>
+
+      </form>
+      <button class="forms__layout--btn" type="submit" id="squareBtn">Calculate</button>
+      <p>The area of your square is: <span id="squareArea"></span></p>
+      <p>The perimeter of your square is: <span id="squarePerimeter"></span></p>
+    </div>
+    
+    <div class="forms__layout">
+    <h2>What are the meassurements of the base & height of your triangle?</h2>
+      <form>
+        
+        <div class="forms__layout--input">
+          <label for="base">Base</label>
+          <input type="number" id="base">
+        </div>
+        <div class="forms__layout--input">
+          <label for="height">Height</label>
+          <input type="number" id="height">
+        </div>
+
+      </form>
+      <button class="forms__layout--btn" type="submit" id="triangleBtn">Calculate</button>
+      <p>The area of your triangle is: <span id="triangleArea"></span></p>
+      <p>The perimeter of your triangle is: <span id="trianglePerimeter"></span></p>
+    </div>
+  
+    <div class="forms__layout">
+      <h2>What is the radio of your circle?</h2>
+      <form>
+
+        <div class="forms__layout--input">
+          <label for="circle">Radio</label>
+          <input type="number" id="circle">
+        </div>
+
+      </form>
+      <button class="forms__layout--btn" type="submit" id="circleBtn">Calculate</button>
+      <p>The area of your circle is: <span id="circleArea"></span></p>
+      <p>The perimeter of your circle is: <span id="circlePerimeter"></span></p>
+    </div>
+
+    <div class="forms__layout">
+      <h2>You want calculate the height of your isosceles triangle?</h2>
+      <form>
+
+        <div class="forms__layout--input">
+          <label for="isoscelesFirstSide">First Side</label>
+          <input type="number" id="isoscelesFirstSide">
+        </div>
+        <div class="forms__layout--input">
+          <label for="isoscelesSecondSide">Second Side</label>
+          <input type="number" id="isoscelesSecondSide">
+        </div>
+        <div class="forms__layout--input">
+          <label for="isoscelesBase">Base</label>
+          <input type="number" id="isoscelesBase">
+        </div>
+
+      </form>
+      <button class="forms__layout--btn" type="submit" id="isoscelesBtn">Calculate</button>
+      <p id="isoscelesHeight"></p>
+    </div>
+  </section>
+
+  <script src="./shapes.js"></script>
+</body>
+</html>

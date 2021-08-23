@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Statistics?</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Statistics?</h1>
+  </header>
+
+  <main>
+    <section class="forms">
+      <div class="forms__layout">
+        <h2>Wanna now the average of your stuff?</h2>
+
+        <form>
+          <div class="forms__layout--input">
+            <label for="amount" id="itemsLabel">Amount of items</label>
+            <div>
+              <input type="number" id="amount" class="previousInput">
+              <input type="number" id="items" class="newInput">
+              <p id="averageShow">Hola</p>
+            </div>
+          </div>
+          <button class="forms__layout--btn" type="submit" id="newItemBtn">Submit</button>
+        </form>
+
+        <p id="averageAlert" class="forms__layout--alert"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

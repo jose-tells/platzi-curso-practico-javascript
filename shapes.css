@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.header h2 {
+  text-align: center;
+  font-weight: 400;
+  color: #f0db4f;
+  margin: 10px ;
+}
+
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.forms__layout {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  margin: 25px 50px 25px 50px;
+  box-shadow: -10px 10px 100px#d7dfd6;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.forms__layout h2 {
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333366;
+  text-align: center;
+}
+
+.forms__layout form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.forms__layout form .forms__layout--input{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forms__layout form label{
+  align-self: flex-start;
+  /* margin-right: 10px; */
+  font-size: 14px;
+}
+
+.forms__layout form input{
+  width: 100%;
+  height: 25px;
+  border: 2px solid #333366;
+  border-radius: 5px;
+  outline: none;
+}
+
+.forms__layout--btn{
+  padding: 3px;
+  margin-bottom: 5px;
+  border: 0;
+  /* border: 2px solid #333366; */
+  border-radius: 5px;
+  box-shadow: 10px 10px 100px#ffffff;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  background: #d7dfd6;
+};
+
+.forms__layout p {
+  text-align: center;
+}
